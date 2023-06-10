@@ -1,0 +1,132 @@
+.home-main-container {
+  width: 100vw;
+  height: 90vh;
+  display: inline-flex;
+  // flex-direction: column;
+//   justify-content: flex-end;
+}
+
+.home-left-part {
+  display: inline-flex;
+  width: 70%;
+  height: 619.2px;
+  justify-content: center;
+  align-items: center;
+  // border: 2px solid red;
+
+  .first-box {
+    width: 655px;
+    height: 402px;
+    display: inline-block;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .second-box {
+    width: 368px;
+    height: 227px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 42%;
+    background-color: #851c1c;
+    // padding-top: 2%;
+    padding-left: 2%;
+    .first-line,
+    .second-line {
+      font-family: "Comic Neue", cursive;
+      font-size: 30px;
+      color: white;
+      margin-top: 2px;
+    }
+    .third-line {
+      font-size: 15px;
+      font-family: "Comic Neue", cursive;
+      margin-top: 12px;
+      color: white;
+    }
+    button {
+      width: 121px;
+      height: 2rem;
+      margin-top: 20px;
+      border-radius: 5px;
+      background-color: #954949;
+      box-shadow: 0 0px 1px rgb(0 0 0 / 35%), 0 3px 6px rgb(0 0 0 / 35%);
+
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+.home-right-part {
+  width: 30%;
+  height: 619.2px;
+  display: inline-flex;
+  //   border: 2px solid yellow;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  img {
+    margin-top: 5%;
+    // border: 2px solid red;
+    width: 290px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .home-main-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .home-left-part{
+        flex-direction: column;
+      }
+      .home-left-part .first-box {
+        width: 317px;
+        height: 239px;
+      }
+      .home-left-part .second-box {
+        position: relative;
+        left: 0%;
+        top: 5%;
+        width: 267px;
+    height: 246px;
+      }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1012px) {
+  .home-main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-right-part {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .home-left-part .first-box {
+    width: 380px;
+    height: 336px;
+    margin-left: -146px;
+
+  }
+  .home-left-part .second-box {
+    width: 279px;
+    // height: 2px;
+    left: 48%;
+    button{
+        margin-top: 3px;
+    }
+    .third-line{
+        margin-top: 2px;
+    }
+  }
+}
+@media screen and (min-width: 1012px) {
+}
