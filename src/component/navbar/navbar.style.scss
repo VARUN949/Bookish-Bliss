@@ -68,7 +68,6 @@
   width: 33.33%;
   height: 100%;
   display: inline-flex;
-  // border: 2px solid yellow;
   padding-left: 9%;
   div {
     margin: auto;
@@ -89,9 +88,7 @@
     border: none;
     box-shadow: 0 0px 1px rgb(0 0 0 / 35%), 0 3px 6px rgb(0 0 0 / 35%);
   }
-  .navbar-menu-bar img {
-    // border: 2px solid green;
-  }
+  
   .navbar-menu-bar {
     display: flex;
     height: 100%;
@@ -101,17 +98,11 @@
     align-items: center;
     flex-direction: column;
     .navbar-menu-bar{
-      // position: relative;
-      // right: 30%;
+      
     }
     .navbar-cross-div{
       display: none;
-      // position: absolute;
-      // top: 3%;
-      // right: 7%;
-      // display: none;
-      // display: none;
-      // margin-left: 36%;
+      
     }
   }
 }
@@ -134,6 +125,14 @@
   .last-part div button {
     display: none;
   }
+}
+
+.side-bar-component{
+  display: none;
+  position: absolute;
+top: 7%;
+
+  
 }
 
 @media screen and (min-width: 577px) and (max-width: 1012px) {

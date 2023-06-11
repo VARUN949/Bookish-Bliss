@@ -3,15 +3,20 @@ import { Link } from "react-router-dom";
 import { Fragment }  from "react";
 import menuBar from "../../assests/menu.png";
 import close from "../../assests/close.png";
+import SideBar from "./sidebar/sidebar.component";
 
 const menuBar_open = () => {
   document.getElementsByClassName("navbar-menu-bar")[0].style.display = "none";
   document.getElementsByClassName("navbar-cross-div")[0].style.display = "block";
+  document.getElementsByClassName("side-bar-component")[0].style.display = "inline";
+  
 };
 
 const menuBar_close = () => {
   document.getElementsByClassName("navbar-menu-bar")[0].style.display = "block";
   document.getElementsByClassName("navbar-cross-div")[0].style.display = "none"; 
+  document.getElementsByClassName("side-bar-component")[0].style.display = "none";
+
 };
 
 const Navbar = () => {
@@ -56,6 +61,9 @@ const Navbar = () => {
               </Link>
               </div>
               </div>
+          </div>
+          <div className="side-bar-component">
+            <SideBar/>
           </div>
         </div>
       </div>
