@@ -12,7 +12,7 @@ const Home = () => {
           <div className="first-box">
             <img src={library_image} alt="" />
           </div>
-          
+
           <div className="second-box">
             <div>
               <div className="first-line">Welcome to Grand</div>
@@ -30,7 +30,8 @@ const Home = () => {
           </div>
           <div className="second-gif">
             <img src={book} alt="" />
-          </div>
+                  </div>
+            
         </div>
       </div>
     </Fragment>
