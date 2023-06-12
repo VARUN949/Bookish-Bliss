@@ -1,8 +1,8 @@
 import "./navbar.style.scss";
 import { Link } from "react-router-dom";
 import { Fragment }  from "react";
-import menuBar from "../../assests/menu.png";
-import close from "../../assests/close.png";
+import menuBar from "../../assests/icons/menu.png";
+import close from "../../assests/icons/close.png";
 import SideBar from "./sidebar/sidebar.component";
 
 const menuBar_open = () => {

@@ -1,0 +1,50 @@
+.Login_left_content {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+     background-color: #851c1c; 
+    
+
+    .login_Welcome_back {
+        font-size: 31px;
+        font-weight: bold;
+        color: white;
+      }
+
+    .login_welcome_back_content {
+        /* width:; */
+        font-size: 5px;
+        font-size: 12px;
+        width: 62%;
+        text-align: center;
+        margin-top: 13%;
+        color: white;
+        font-weight: 500;
+      }
+
+    .login_signup_button {
+        margin-top: 15%;
+
+        button {
+            width: 158px;
+            font-size: 15px;
+            font-weight: 500;
+            background-color: #851c1c;
+            color: white;
+            border: 3px solid white;
+            border-radius: 21px;
+            height: 38px;
+            cursor: pointer;
+          }
+      }
+  }
+  
+  
+
+  
+   

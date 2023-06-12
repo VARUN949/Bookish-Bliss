@@ -1,8 +1,8 @@
 import "./home.style.scss";
-import library_image from "../../assests/library.jpg";
-import girl_reading from "../../assests/girl-reading.gif";
+import library_image from "../../assests/images/library.jpg";
+import girl_reading from "../../assests/images/girl-reading.gif";
 import { Fragment } from "react";
-import book from "../../assests/book.gif";
+import book from "../../assests/images/book.gif";
 
 const Home = () => {
   return (
