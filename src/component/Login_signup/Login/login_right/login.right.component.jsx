@@ -3,7 +3,7 @@ import password from "../../../../assests/icons/password.png";
 import { Link } from "react-router-dom"
 import './login_right.style.scss'
 
-const LoginRight = () => {
+const LoginRight = (props) => {
     return (
         <div className="Login_right_content " id="right1_60">
             <div className="login_right_unityworks">Bookish Bliss</div>
@@ -11,8 +11,8 @@ const LoginRight = () => {
               Sign in to Bookish Bliss
             </div>
             <div className="Login_G_F">
-              <div className="Login_circle">G</div>
-              <div className="Login_circle">f</div>
+            <button>G</button>
+          <button>f</button>
             </div>
             <div className="Login_or_use">
               or use your email for registration

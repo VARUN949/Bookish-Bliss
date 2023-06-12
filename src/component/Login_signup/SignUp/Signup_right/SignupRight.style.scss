@@ -1,4 +1,5 @@
-.Login_left_content {
+
+.signup_Right_content {
     width: 100%;
     height: 100%;
     position: relative;
@@ -8,17 +9,22 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
      background-color: #851c1c; 
-    
 
-    .login_Welcome_back {
+    .signup_right_unityworks{
+        color: white;
+        font-size: 23px;
+        align-self: flex-end;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+      }
+
+      .Signup_right_welcome {
         font-size: 31px;
         font-weight: bold;
         color: white;
-        text-align: center;
       }
-
-    .login_welcome_back_content {
-        /* width:; */
+      .Signup_right_welcome_back_content {
         font-size: 5px;
         font-size: 12px;
         width: 62%;
@@ -28,7 +34,7 @@
         font-weight: 500;
       }
 
-    .login_signup_button {
+      .signup_right_button {
         margin-top: 15%;
 
         button {
@@ -43,9 +49,5 @@
             cursor: pointer;
           }
       }
+      
   }
-  
-  
-
-  
-   

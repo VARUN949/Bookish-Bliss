@@ -1,21 +1,162 @@
+.login-main-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.login-main-container{
-    
-    width: 100vw;
-    height: 90vh;
+  .login-inner-container {
+    //  border: 2px solid #e77070;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-.login-inner-container{
-    
-    //  border: 2px solid #e77070; 
-    display: flex;
+    position: relative;
     box-shadow: 0px 0px 27px #a08282;
     width: 768px;
-    height: 559.200px;
+    height: 559.2px;
     justify-self: center;
     align-self: center;
+
+    .LoginLeft {
+      width: 40%;
+      height: 100%;
+      position: absolute;
+    //   display:  flex;
+      left: 0px;
+      z-index: 3;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      overflow: visible;
+    }
+    .LoginRight {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        left: 40%;
+        z-index: 3;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+
+    .SignupRight {
+      width: 40%;
+      height: 100%;
+      position: absolute;
+      left: 60%;
+      z-index: 3;
+      opacity: 0;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    
+    .SignupLeft {
+      width: 60%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      z-index: 1;
+      opacity: 0;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    .slider{
+        width: 40%;
+      height: 100%;
+        background-color: #851c1c;
+        position: absolute;
+        left: 0px;
+        z-index: 2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+  }
 }
 
+// @media screen and (max-width: 600px) {
+//     .login-main-container .login-inner-container{
+//         flex-direction: column ;
+//     }
+//     .login-main-container .login-inner-container .LoginLeft{
+//         position: unset;
+//     }
+//     .login-main-container .login-inner-container .LoginRight{
+//         position: unset;
+//     }
+//     .login-main-container .login-inner-container .SignupLeft{
+//         position: unset;
+//         display: none;
+//     }
+//     .login-main-container .login-inner-container .SignupRight{
+//         position: unset;
+//         display: none;
+//     }
+// }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+.login-main-container .login-inner-container{
+    width:559px ;
 }
+}
+
+@media screen and (min-width: 1012px) {
+}
+
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 60%;
+  }
+}
+@keyframes slider_return {
+  0% {
+    left: 60%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes op_decre {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes op_incre {
+  0% {
+    opacity: 0;
+    display: inline-block;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes slider {
+    0% {
+        left: 0%;
+      }
+      100% {
+        left: 60%;
+      }
+  }
+
+  @keyframes slider_return {
+    0% {
+        left: 60%;
+      }
+      100% {
+        left: 0%;
+      }
+  }

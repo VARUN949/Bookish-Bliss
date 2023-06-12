@@ -1,0 +1,122 @@
+.signup_left_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-primary);
+
+    .signup_into_unityworks {
+        color: #851c1c;
+        font-weight: bold;
+        font-size: 33px;
+        margin-top: 47px;
+        margin-bottom: 28px;
+      }
+  }
+
+  .signup_left_G_F {
+    display: flex;
+    height: 48px;
+
+    button {
+        width: 40px;
+        height: 40px;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 14px;
+        box-shadow: -2px 2px 5px #a08282;
+        background-color: #faf1f1;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+      }
+  }
+
+
+  .signup_left_or_use {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 550;
+  }
+
+
+  .Signup_left_email_password {
+    margin-top: 30px;
+    height: fit-content;
+
+    .signup_left_email {
+      width: 283px;
+      height: 41px;
+      border-radius: 24px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #d9d9d9;
+      color: #635b5b;
+
+      img {
+        width: 29px;
+        height: 21px;
+        margin: 0 10px;
+      }
+
+      input {
+        background-color: transparent;
+        border: none;
+        width: 215px;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+
+    .signup_left_password {
+      width: 283px;
+      height: 41px;
+      border-radius: 24px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #d9d9d9;
+      color: #635b5b;
+
+      img {
+        width: 29px;
+        height: 21px;
+        margin: 0 10px;
+      }
+
+      input {
+        background-color: transparent;
+        border: none;
+        width: 215px;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+}
+.signup_left_button {
+    margin-top: 21px;
+
+    button {
+        width: 158px;
+        font-size: 15px;
+        font-weight: 500;
+        background-color: #851c1c;
+        color: white;
+        border: 3px solid white;
+        border-radius: 21px;
+        height: 38px;
+        cursor: pointer;
+      }
+  }
+  
+
+
+  
