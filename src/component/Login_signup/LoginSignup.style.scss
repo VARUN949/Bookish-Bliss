@@ -70,34 +70,85 @@
   }
 }
 
-// @media screen and (max-width: 600px) {
-//     .login-main-container .login-inner-container{
-//         flex-direction: column ;
-//     }
-//     .login-main-container .login-inner-container .LoginLeft{
-//         position: unset;
-//     }
-//     .login-main-container .login-inner-container .LoginRight{
-//         position: unset;
-//     }
-//     .login-main-container .login-inner-container .SignupLeft{
-//         position: unset;
-//         display: none;
-//     }
-//     .login-main-container .login-inner-container .SignupRight{
-//         position: unset;
-//         display: none;
-//     }
-// }
+@media screen and (max-width: 600px) {
+    .login-main-container .login-inner-container{
+        flex-direction: column ;
+            height:auto;
+        width: 312px;
+    }
+    .login-main-container .login-inner-container .LoginLeft{
+        position: unset;
+        width: 100%;
+        height: 270px;
+    }
+    .login-main-container .login-inner-container .LoginRight{
+        position: unset;
+        // display: none;
+        width: 100%;
+        height: 500px;
+
+    }
+    .login-main-container .login-inner-container .SignupLeft{
+        position: unset;
+        display: none;
+    }
+    .login-main-container .login-inner-container .SignupRight{
+        position: unset;
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+    .login-main-container .login-inner-container{
+    
+    }
+    .login-main-container{
+        margin-top: 50px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .login-main-container .login-inner-container .SignupRight {
+        opacity: 1;
+        width: 100%;
+        height: 270px;
+    }
+    .login-main-container .login-inner-container .SignupLeft {
+        opacity: 1;
+        width: 100%;
+    }
+    .login-main-container .login-inner-container .signup{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
 .login-main-container .login-inner-container{
     width:559px ;
 }
+.status{
+    display: none;
 }
+}
+@media screen and (min-width: 800px) and (max-width: 1012px) {
+    
+    .status{
+        display: none;
+    }
+    }
 
 @media screen and (min-width: 1012px) {
+    .status{
+        display: none;
+    }
 }
+
+
+
+
+
+
 
 @keyframes slider {
   0% {

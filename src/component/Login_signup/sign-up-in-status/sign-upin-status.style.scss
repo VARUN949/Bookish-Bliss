@@ -1,0 +1,23 @@
+.sign-in-status {
+ 
+}
+
+.status-parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sign-in-status,.sign-out-status{
+  a{
+    text-decoration: none;
+    font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+  }
+}
+.sign-in-status{
+  display: none;
+}

@@ -19,6 +19,7 @@ const menuBar_close = () => {
 
 };
 
+
 const Navbar = () => {
   return (
     <Fragment>

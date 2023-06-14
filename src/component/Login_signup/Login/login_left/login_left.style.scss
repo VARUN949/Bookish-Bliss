@@ -45,7 +45,15 @@
       }
   }
   
-  
+  @media screen and (max-width: 600px) {
+    .login_signup_button button{
+      display: none;
+    }
+    .Login_left_content .login_welcome_back_content{
+      font-size: 14px;
+    }
+    
+}
 
   
    

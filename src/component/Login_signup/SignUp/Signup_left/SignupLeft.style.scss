@@ -118,5 +118,9 @@
   }
   
 
-
+  @media screen and (max-width: 600px) {
+    .Login_right_content .login_right_unityworks{
+      display: none;
+    }
+  }
   
