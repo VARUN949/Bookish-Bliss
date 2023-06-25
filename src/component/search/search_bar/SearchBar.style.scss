@@ -1,6 +1,6 @@
 .searchbar-main-container {
   width: 100vw;
-  height: 200px;
+  height: 169px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,53 +14,41 @@
     align-items: center;
     border-radius: 10px;
     padding: 0px 10px;
-    // .search-animation{
-    //     border: 2px solid red;
-    //     border-radius: 10px;
-    //     width: 100%;
-    //     height: 27px;
-    //     position: absolute;
-    // }
-    .search_icon{
-        img{
-            width: 24px;
-            height: 24px;
-        }
-    }
-    input[type="text"]
-{
-    font-size: 16px;
-    margin-left: 13px;
+    position: relative;
 
-}
+    .search_icon {
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    input[type="text"] {
+      font-size: 16px;
+      margin-left: 13px;
+    }
     input:focus {
-        outline: none;
+      outline: none;
     }
-    input{
-        width: 398px;
-        
-        border: none;
+    input {
+      width: 398px;
+      border: none;
     }
-    .crosss{
-        justify-self: flex-end;
-        margin-left: auto;
-        img{
-            width: 20px;
+    .crosss {
+      justify-self: flex-end;
+      margin-left: auto;
+      img {
+        width: 20px;
         height: 20px;
-            
-        }
+      }
     }
-    
   }
 }
-
-
 
 @media screen and (max-width: 576px) {
-    .searchbar-main-container .searchbar-inner-container{
-        width: 300px;
-    }
-    .searchbar-main-container .searchbar-inner-container input{
-        width: 210px;
-    }
+  .searchbar-main-container .searchbar-inner-container {
+    width: 300px;
   }
+  .searchbar-main-container .searchbar-inner-container input {
+    width: 210px;
+  }
+}

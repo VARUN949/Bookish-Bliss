@@ -1,0 +1,17 @@
+.search_bar {
+  width: 100vw;
+    overflow-x: hidden;
+}
+.bookcontainer {
+  display: inline-flex;
+    margin: auto;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  //   border: 2px solid red;\ba
+//   background-color: red;
+  .bookcontainer_inner {
+    display: inline;
+    margin: 26px 26px;
+  }
+}

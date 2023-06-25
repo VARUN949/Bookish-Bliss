@@ -5,13 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { StatusContextProvider } from './contexts/LoginStatus.contexts'
+import { FilterBooksProvider } from "./contexts/FilteredBooks"
+import {SearchStringContexPorvider} from "./contexts/SearchBooks.contexts"
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <StatusContextProvider>
-      <App />
+        <FilterBooksProvider>
+          <SearchStringContexPorvider>
+               <App />
+          </SearchStringContexPorvider>
+        </FilterBooksProvider>
       </StatusContextProvider>
     </BrowserRouter>
   </React.StrictMode>

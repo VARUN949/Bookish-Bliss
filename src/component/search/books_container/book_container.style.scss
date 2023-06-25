@@ -1,0 +1,69 @@
+.book_main_container {
+  width: 331px;
+  height: auto;
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffefef;
+
+  .book_image {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    // border: 2px solid green;
+    img{
+      width: 115px;
+      height: 132px;
+      // border:2px solid red;
+    }
+  }
+  .title {
+    margin-left: 15px;
+    font-size: 22px;
+    width: 316px;
+    height: 54px;
+    overflow: hidden;
+    margin-top: 22px;
+    color: #953b3b;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  .author {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 9px;
+    width: 316px;
+    height: 16px;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+  }
+  .rating {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 316px;
+    height: 21px;
+  }
+  .description {
+    overflow: hidden;
+    width: 312px;
+    height: 71px;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(27, 47, 69, 0.7);
+  }
+  .read_more {
+    margin: 12px 0px;
+    margin-left: 15px;
+    a{
+      font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #953b3b;
+    text-decoration: none;
+    }
+    
+  }
+}
