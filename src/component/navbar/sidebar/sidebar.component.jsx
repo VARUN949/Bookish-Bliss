@@ -93,7 +93,7 @@ const SideBar = () => {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/">Library</Link>
+                <Link to="/library">Library</Link>
               </li>
               <li>
                 <Link to="/">Collaction</Link>

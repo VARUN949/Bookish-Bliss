@@ -15,7 +15,7 @@ function App() {
       </Route>
       <Route path="/login" element={<><Navbar /><LoginSignup /></>}>
       </Route>
-      <Route path="/search" element={<><Navbar></Navbar><SearchPage></SearchPage></>}></Route>
+      <Route path="/library" element={<><Navbar></Navbar><SearchPage></SearchPage></>}></Route>
       
     </Routes>
     
